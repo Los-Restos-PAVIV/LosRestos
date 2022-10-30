@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7b799a3c-e44c-4965-bb20-cc70248e9a50}">
+		<property name="assetPath">
+			<value>Intro/intro_beep__04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>6.0613333333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e9f47a99-112f-4438-84ee-1566582e01cc}</destination>
+		</relationship>
+	</object>
+</objects>

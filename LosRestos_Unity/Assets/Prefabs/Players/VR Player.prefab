@@ -803,7 +803,6 @@ GameObject:
   - component: {fileID: 4790860512596523841}
   - component: {fileID: 4790860512596523844}
   - component: {fileID: 4790860512596523843}
-  - component: {fileID: 4790860512596523845}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -877,14 +876,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!81 &4790860512596523845
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4790860512596523840}
-  m_Enabled: 1
 --- !u!1 &4790860512802653825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,8 +1522,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4790860513349125852}
   - component: {fileID: 4790860513349125851}
-  - component: {fileID: 4790860513349125850}
   - component: {fileID: 4790860513349125853}
+  - component: {fileID: -7705322859941865681}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1598,14 +1589,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &4790860513349125850
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4790860513349125849}
-  m_Enabled: 0
 --- !u!114 &4790860513349125853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1679,3 +1662,16 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   m_HasMigratedActions: 1
+--- !u!114 &-7705322859941865681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4790860513349125849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
