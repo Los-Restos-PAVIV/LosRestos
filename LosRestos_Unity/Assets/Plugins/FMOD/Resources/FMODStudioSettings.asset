@@ -348,10 +348,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
-  HasSourceProject: 1
+  HasSourceProject: 0
   HasPlatforms: 1
   sourceProjectPath: ../LosRestos_FMOD/LosRestos_FMOD.fspro
-  sourceBankPath: ../LosRestos_FMOD/Build
+  sourceBankPath: ../LosRestos_FMOD/FMOD_Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
