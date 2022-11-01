@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{806ba969-aa12-4c15-a7cf-9542456522bf}">
+		<property name="assetPath">
+			<value>Estatica/Estatica_Zona3_LF.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>25.660541666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e9f47a99-112f-4438-84ee-1566582e01cc}</destination>
+		</relationship>
+	</object>
+</objects>
