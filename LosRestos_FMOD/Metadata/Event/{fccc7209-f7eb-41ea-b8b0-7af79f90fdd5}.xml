@@ -5,7 +5,7 @@
 			<value>Estatica Zona 3</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8e99003d-b8b3-417d-a911-adc4462b3078}</destination>
@@ -180,6 +180,7 @@
 	<object class="MixerBusEffectChain" id="{4cbf4ec7-8e3b-42ee-abf8-6b549e53dff9}">
 		<relationship name="effects">
 			<destination>{ceb51ec7-9114-4f68-b92e-c3076d6b652f}</destination>
+			<destination>{d59ff918-ccee-48db-9933-01312fd15a12}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d0e32c9c-a2dd-4e8a-b8b1-757e57a2c558}" />
@@ -197,6 +198,23 @@
 	</object>
 	<object class="MixerBusPanner" id="{3047615a-2bac-4368-a403-a2bfbcf27530}" />
 	<object class="MixerBusFader" id="{ceb51ec7-9114-4f68-b92e-c3076d6b652f}" />
+	<object class="SpatialiserEffect" id="{d59ff918-ccee-48db-9933-01312fd15a12}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>800</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>18</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{0b81ae9a-b673-4372-8182-1a1fc6f72b23}" />
 	<object class="MixerBusFader" id="{366b9f36-1c29-4a33-a976-3d29011fa73e}" />
 </objects>

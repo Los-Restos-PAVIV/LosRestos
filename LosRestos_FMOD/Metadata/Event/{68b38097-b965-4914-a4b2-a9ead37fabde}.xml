@@ -56,7 +56,29 @@
 			<destination>{1b14c6ec-0ae6-4d92-a659-5b226869bb99}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{8698c130-e711-443d-bc73-2414ff438ab7}" />
+	<object class="EventAutomatableProperties" id="{8698c130-e711-443d-bc73-2414ff438ab7}">
+		<property name="maxVoices">
+			<value>20</value>
+		</property>
+		<property name="voiceStealing">
+			<value>4</value>
+		</property>
+		<property name="priority">
+			<value>3</value>
+		</property>
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>5.20000029</value>
+		</property>
+		<property name="triggerCooldown">
+			<value>980</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{9898dc43-695f-4468-8160-681a7bafce08}" />
 	<object class="GroupTrack" id="{c3d99446-fedd-48e7-afd2-42046ee7a2c3}">
 		<relationship name="modules">
@@ -75,6 +97,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c3469b89-4500-4fae-be1f-f8799808aa2a}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{a14671a2-f980-4432-ad63-27c7a5a55ec4}</destination>
 		</relationship>
@@ -101,7 +126,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{24405102-d77d-4402-83ea-d643c59a1dba}">
 		<property name="volume">
-			<value>9.5</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -147,23 +172,23 @@
 	<object class="MixerBusPanner" id="{4508dcaf-8e85-4904-9d92-93e7dbb5d030}" />
 	<object class="MixerBusFader" id="{9831005d-ebba-480d-b44d-bf164fd8ec7a}" />
 	<object class="SpatialiserEffect" id="{4c2ce201-b900-4b59-8f98-c7aa65b146c8}">
-		<property name="distanceRolloffType">
-			<value>2</value>
-		</property>
 		<property name="minimumDistance">
-			<value>0.600000024</value>
+			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>6.80000019</value>
+			<value>500</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
 		<property name="soundSize">
-			<value>18</value>
+			<value>30</value>
 		</property>
 		<property name="minimumExtent">
-			<value>178</value>
+			<value>182</value>
 		</property>
 	</object>
 	<object class="GainEffect" id="{aeb3555a-a1e8-472c-8b6e-a30decf209fc}">
