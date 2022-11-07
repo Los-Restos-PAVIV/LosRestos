@@ -377,6 +377,7 @@ MonoBehaviour:
   Banks:
   - Nivel 0_txt
   - Nivel 2_Recorrido
+  - Render Magma
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

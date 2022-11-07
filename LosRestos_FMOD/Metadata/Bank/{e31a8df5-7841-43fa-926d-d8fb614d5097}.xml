@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{e31a8df5-7841-43fa-926d-d8fb614d5097}">
+		<property name="name">
+			<value>Render Magma</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d318d7dc-5efc-4fc5-aacb-2bd6d12f137c}</destination>
+		</relationship>
+	</object>
+</objects>

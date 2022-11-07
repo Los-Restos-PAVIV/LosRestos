@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ea47dc35-77a3-4987-8129-192164d23045}">
+		<property name="assetPath">
+			<value>Estatica/Estatica Zona 1 SYN MONO.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>214.7420625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e9f47a99-112f-4438-84ee-1566582e01cc}</destination>
+		</relationship>
+	</object>
+</objects>

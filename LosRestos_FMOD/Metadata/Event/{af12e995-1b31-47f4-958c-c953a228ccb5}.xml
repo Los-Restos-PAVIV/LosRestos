@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{af12e995-1b31-47f4-958c-c953a228ccb5}">
 		<property name="name">
-			<value>New Event</value>
+			<value>Estatica_Zona 2D</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<relationship name="folder">
-			<destination>{d78fe5bb-dfa2-47d1-b1ef-b373bdbe45da}</destination>
+			<destination>{8e99003d-b8b3-417d-a911-adc4462b3078}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{8c1ab020-6d3d-47b6-a35c-2cb8c224f550}</destination>
@@ -127,9 +127,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{faf85206-b50f-410c-97a5-9136c333fc95}">
-		<property name="volume">
-			<value>1.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -159,7 +156,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f9a073f0-5ff2-44a3-a597-55595bb7e414}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-14.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>
@@ -197,17 +194,86 @@
 	<object class="MixerBusFader" id="{980e0381-d061-4c3f-a81b-99a6794323de}" />
 	<object class="MixerBusEffectChain" id="{4fa77095-b47b-4546-9664-b01f1d8e26e2}">
 		<relationship name="effects">
+			<destination>{adda3850-8862-4f72-9562-44db07e8ca7e}</destination>
+			<destination>{a950d32c-c397-4697-af5c-29a3941a2a6f}</destination>
 			<destination>{5562d472-72f1-41f1-94e7-cb76fc9e6afb}</destination>
+			<destination>{13342b54-fd7a-4ec7-bce9-b7981aa7e253}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{92c6e7ac-3bb5-4073-9e44-68e08113a48f}" />
 	<object class="MixerBusEffectChain" id="{785c3f89-7c0b-4429-bfbd-ed65d406327c}">
 		<relationship name="effects">
+			<destination>{2c50be7a-2718-43b8-8b0b-9fda9c59fa47}</destination>
 			<destination>{2dbeeb58-afe7-46eb-a35d-2049e7747c4c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2beaacc2-c557-4b68-ad56-97e2dfcdabfb}" />
 	<object class="MixerBusFader" id="{1b2b691f-0858-4b96-8fb8-2ac9a8fe8938}" />
+	<object class="ChorusEffect" id="{adda3850-8862-4f72-9562-44db07e8ca7e}">
+		<property name="rate">
+			<value>9</value>
+		</property>
+		<property name="depth">
+			<value>61.5</value>
+		</property>
+		<property name="mix">
+			<value>14.5</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{a950d32c-c397-4697-af5c-29a3941a2a6f}">
+		<property name="level">
+			<value>0.170000002</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{5562d472-72f1-41f1-94e7-cb76fc9e6afb}" />
+	<object class="PannerEffect" id="{13342b54-fd7a-4ec7-bce9-b7981aa7e253}">
+		<property name="stereoPan">
+			<value>46</value>
+		</property>
+		<property name="surroundStereoSeparation">
+			<value>126</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>3</value>
+		</property>
+		<property name="disabledSpeakers">
+			<value>7</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{2c50be7a-2718-43b8-8b0b-9fda9c59fa47}">
+		<property name="decayTime">
+			<value>4900</value>
+		</property>
+		<property name="earlyDelay">
+			<value>25</value>
+		</property>
+		<property name="lateDelay">
+			<value>61</value>
+		</property>
+		<property name="HFReference">
+			<value>4800</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>70.5</value>
+		</property>
+		<property name="density">
+			<value>0</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>20</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>7</value>
+		</property>
+		<property name="highCut">
+			<value>1450</value>
+		</property>
+		<property name="wetLevel">
+			<value>0</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{2dbeeb58-afe7-46eb-a35d-2049e7747c4c}" />
 </objects>
