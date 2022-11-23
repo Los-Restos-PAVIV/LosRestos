@@ -52,7 +52,7 @@ MonoBehaviour:
       Data2: 1207180081
       Data3: 1405717653
       Data4: -1244911454
-    Path: event:/New Event
+    Path: event:/Nivel 2_Recorrido/Estatica_Zona 2D
   Event: 
   PlayEvent: 3
   StopEvent: 4
@@ -62,7 +62,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 9400
 --- !u!65 &7038747377306883497
 BoxCollider:
   m_ObjectHideFlags: 0
