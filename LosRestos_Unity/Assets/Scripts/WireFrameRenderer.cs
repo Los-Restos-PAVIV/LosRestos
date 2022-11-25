@@ -6,8 +6,7 @@ public class WireFrameRenderer : MonoBehaviour
 {
     public bool StartInWireFrame=true;
      
-     
-    
+
 
     void OnPreRender()
     {
