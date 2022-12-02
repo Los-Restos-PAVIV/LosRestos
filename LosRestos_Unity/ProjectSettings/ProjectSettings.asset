@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: velazquezbrollo
-  productName: LosRestos_v
+  productName: LosRestos_Magma_
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -136,7 +136,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.9.2
+  bundleVersion: 1.0
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -148,6 +148,11 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: eb84867302ed045349bae371346a3123, type: 2}
+  - {fileID: -6029064657592996730, guid: e592d543fd42b4c97a11ac8d978280ca, type: 2}
+  - {fileID: 724918614523763421, guid: 5ff74492a84b64ed7a0e7c162f53d570, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -168,7 +173,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.velazquezbrollo.LosRestos_v
-    Standalone: com.velazquezbrollo.LosRestos-v
+    Standalone: com.velazquezbrollo.LosRestos-Magma-
   buildNumber:
     Standalone: 0
     iPhone: 0
